@@ -1,0 +1,18 @@
+.footer-continer{
+   margin-top: auto;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 3px;
+
+}
+.socials li{
+list-style: none;
+}
+.fab{
+color: rgb(234, 236, 240);
+}

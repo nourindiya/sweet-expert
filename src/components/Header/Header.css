@@ -1,0 +1,26 @@
+.fas {
+  color: #8a2be2;
+}
+.nav{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(10, 2, 10);
+    color: white;
+}
+Container{
+  text-align: center;
+}
+.links{
+ margin-left: 500px;
+}
+.link{
+  color: white;
+  margin-left: 60px;
+  text-decoration-line: none;
+  padding: 5px;
+}
+.link:hover{
+  background-color: purple;
+  height: 100%;
+}

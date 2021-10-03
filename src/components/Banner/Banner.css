@@ -1,0 +1,22 @@
+.row{
+    width: 100%;
+    margin: 5px; 
+    height: 300px;
+    padding: 0;
+}
+.info{
+background-color: rgba(221, 160, 221, 0.438);
+text-align: center;
+padding-top: 50px;
+} 
+.btn{
+    margin-top: 20px;
+} 
+.btn:hover{
+background-color: purple;
+color: white;
+} 
+.img{
+    width: 100%;
+    height: 300px;
+}

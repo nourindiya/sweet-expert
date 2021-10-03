@@ -1,0 +1,36 @@
+.about-body{
+    height: 1200px;
+}
+.carousel-item{
+  width: 100%;
+}
+.body-tittle{
+    width: 1300px;
+    
+}
+.car-img{
+    height: 500px;
+  
+}
+.info{
+    border: 1px solid rgba(188, 143, 143, 0.199);
+    padding: 5px;
+    background-color: rgba(188, 143, 143, 0.199);
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px 0px rgba(235, 114, 235, 0.438);
+    height: 300px;
+   gap: 10px;
+}
+.heading{
+    text-align: start;
+}
+.fas{
+    color: purple;
+}
+.fa-trophy{
+    color: goldenrod;
+    margin: 5px;
+}
+.text-start{
+    font-weight: lighter;
+}

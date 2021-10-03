@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Plain Cake",
+        "img": "https://i.ytimg.com/vi/ILh5N6unBLc/maxresdefault.jpg",
+        "CourseFee": "$50"
+    },
+    {
+        "name": "Cup Cake",
+        "img": "https://th.bing.com/th/id/OIP.MemR_zpUEeCMPzFiFBewdAHaE7?pid=ImgDet&w=800&h=533&rs=1",
+        "CourseFee": "$70"
+    },
+    {
+        "name": "Frosting",
+        "img": "https://th.bing.com/th/id/OIP._Hnf4DP53s-_bm3Buano9AHaLH?w=127&h=191&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "CourseFee": "$50"
+    },
+    {
+        "name": "Donut",
+        "img": "https://sugargeekshow.com/wp-content/uploads/2020/10/baked_donut_recipe_featured.jpg",
+        "CourseFee": "$40"
+    }
+]
