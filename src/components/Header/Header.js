@@ -10,6 +10,8 @@ const Header = () => {
                 <Navbar.Brand className="text-white" href=""><i class="fas fa-birthday-cake"></i> Sweet Expert</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
+
+                    {/* Navbar Links */}
                     <Nav className="links">
                         <Link to="/home" className="link text-light" href="#home">Home</Link>
                         <Link to="/about" className="link text-light" href="#home">About Us</Link>

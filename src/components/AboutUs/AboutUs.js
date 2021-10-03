@@ -7,10 +7,16 @@ import "./AboutUs.css"
 const AboutUs = () => {
     return (
         <div className="about-container">
+
+            {/* Header Div */}
             <div className="header">
                 <Header></Header>
             </div>
+
+            {/* About Body */}
             <div className="about-body">
+
+                {/* Carousel */}
                 <div className="body-tittle mx-auto text-center">
                     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
@@ -42,6 +48,7 @@ const AboutUs = () => {
                         <h3 className="mt-3 mb-3"> ABOUT US </h3>
                         <div className="row">
 
+                            {/* Describtions */}
                             <div className="col-md-6 pt-4 info mt-auto">
                                 <h1>SWEET EXPERT </h1>
                                 <h6>(A academy where you can we impart skills and tecniques)</h6>
@@ -52,6 +59,7 @@ const AboutUs = () => {
                                     consultancy to the bakeries and restaurent<br />
                                     industries.In 2010 we</p>
                             </div>
+
                             <div className="col-md-6 info mt-auto" >
                                 <h1>THE VISION</h1>
                                 <p>To give world class and professional<br />
@@ -65,7 +73,7 @@ const AboutUs = () => {
 
                         </div>
 
-
+                        {/* Acheivments Div */}
                         <div>
                             <h3 className="heading mt-5 mx-2">   <i class="fas fa-award"></i> ACHIVEMENTS:</h3>
                             <div className="ul">
@@ -83,14 +91,14 @@ const AboutUs = () => {
                                     All students get chance to earn funds from different companies for thei own venture.
                                 </h4>
 
-
-
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
+
+            {/* Footer Div */}
             <div className="footer">
                 <Footer></Footer>
             </div>

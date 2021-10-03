@@ -14,9 +14,12 @@ const Services = () => {
 
     return (
         <div>
+            {/* header div */}
             <div className="header">
                 <Header></Header>
             </div>
+
+            {/* Cards */}
             <div className="service-body">
                 <div className="row">
                     <h2 className="fw-lighter text-start pt-3 mx-2"> FEATURED COURSES:</h2>
@@ -31,6 +34,8 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+
+            {/* header div */}
             <div className="footer">
                 <Footer></Footer>
             </div>

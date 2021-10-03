@@ -4,7 +4,7 @@ import "./Courses.css"
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
-
+    // load and set data
     useEffect(() => {
         fetch('./projectData1.json')
             .then(res => res.json())

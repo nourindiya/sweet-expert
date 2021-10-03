@@ -6,12 +6,17 @@ import Header from '../Header/Header';
 const Contact = () => {
     return (
         <div className="contact-container">
+            {/* Header Div */}
             <div className="header">
                 <Header></Header>
             </div>
+
+            {/* contact Container*/}
             <div className="contact-container about-body">
                 <div className="contact-banner ">
                     <div className="row contact">
+
+                        {/* Contact Photos */}
                         <div className="col-md-3">
                             <img className="contact-img" src="https://th.bing.com/th/id/OIP.VTb0scae8zxWIzm76jX1UAHaE7?pid=ImgDet&rs=1" alt="" />
                         </div>
@@ -27,9 +32,9 @@ const Contact = () => {
                     </div>
                 </div>
 
+                {/* Contact Info */}
                 <div>
                     <div className="row mx-auto">
-
                         <h3 className="mt-5 mb-5 text-center">GET IN TOUCH</h3>
                         <div className="col-md-6 contact-info">
 
@@ -64,6 +69,8 @@ const Contact = () => {
 
                             </div>
                         </div>
+
+                        {/* Sign Up Part */}
                         <div className="col-md-6 sign-up">
                             <h2 className="fw-lighter pt-5">
                                 <i class="fas fa-sign-in-alt mx-3"></i>
@@ -84,6 +91,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Footer div */}
             <div className="footer">
                 <Footer></Footer>
             </div>

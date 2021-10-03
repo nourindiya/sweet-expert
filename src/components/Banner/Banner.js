@@ -4,6 +4,7 @@ import "./Banner.css"
 
 const Banner = () => {
     return (
+        // Header Banner
         <div className="row">
             <div className="col-md-6 info">
                 <div className="sweet">
@@ -13,10 +14,11 @@ const Banner = () => {
                     <button className="btn btn-light">Join Now</button>
                 </div>
             </div>
-
+            {/* Banner Image */}
             <div className="col-md-6">
                 <img className="img" src="https://3.bp.blogspot.com/-6rWIv26pHXk/TgTjtPjvW2I/AAAAAAAAAjc/pO5HFuTKRhE/s1600/OkCm_005.jpg" alt="" />
             </div>
+
         </div>
     );
 };

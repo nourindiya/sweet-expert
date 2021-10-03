@@ -1,3 +1,6 @@
+Container{
+  text-align: center;
+}
 .fas {
   color: #8a2be2;
 }
@@ -8,9 +11,7 @@
     background-color: rgb(10, 2, 10);
     color: white;
 }
-Container{
-  text-align: center;
-}
+
 .links{
  margin-left: 500px;
 }
