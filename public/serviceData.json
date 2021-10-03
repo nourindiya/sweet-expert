@@ -22,16 +22,16 @@
     {
         "name": "Cookies",
         "img": "https://th.bing.com/th/id/OIP.nROY9AAxJN20-DY6eYo8SwHaE8?pid=ImgDet&rs=1",
-        "Price": "$50"
+        "CourseFee": "$30"
     },
     {
         "name": "Macroon",
-        "img": "https://th.bing.com/th/id/OIP.NS3jSvCeYrnSj_uvDkZ_OAHaHa?w=201&h=201&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "Price": "$0"
+        "img": "https://th.bing.com/th/id/R.d83f93f59d27a439d846e5589f14aa7d?rik=ChQ%2bIaUQIYs0qQ&pid=ImgRaw&r=0",
+        "CourseFee": "$50"
     },
     {
         "name": "Theme Cake",
         "img": "https://th.bing.com/th/id/OIP.XrxoUwn02gJ2QyMGCHaiKgHaKk?w=206&h=294&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "Price": "$120"
+        "CourseFee": "$120"
     }
 ]

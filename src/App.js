@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import AboutUs from './components/AboutUs/AboutUs';
 import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
-import Classes from './components/Classes/Classes';
+import Services from './components/Services/Services';
 
 
 function App() {
@@ -26,15 +26,14 @@ function App() {
             <AboutUs></AboutUs>
           </Route>
 
-          <Route path="/classes">
-            <Classes></Classes>
+          <Route path="/service">
+            <Services></Services>
           </Route>
 
 
           <Route path="/contact">
             <Contact></Contact>
           </Route>
-
 
 
           <Route path="*">
