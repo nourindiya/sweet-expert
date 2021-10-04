@@ -1,9 +1,12 @@
 import React from 'react';
 import "./Contact.css"
 import Footer from '../Footer/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faEnvelope, faMapMarked, faMobileAlt, faSignInAlt, faUserFriends } from '@fortawesome/free-solid-svg-icons'
 import Header from '../Header/Header';
 
 const Contact = () => {
+
     return (
         <div className="contact-container">
             {/* Header Div */}
@@ -35,17 +38,17 @@ const Contact = () => {
                 {/* Contact Info */}
                 <div>
                     <div className="row mx-auto">
-                        <h3 className="mt-5 mb-5 text-center">GET IN TOUCH</h3>
+                        <h3 className="mt-5 mb-5 text-center purple">GET IN TOUCH</h3>
                         <div className="col-md-6 contact-info">
 
                             <div>
                                 <h2 className="pt-5 fw-lighter">
-                                    <i className="mx-3 fas fa-mobile-alt"></i>
-                                    Contact Information :</h2>
+                                    <FontAwesomeIcon className="black mx-2" icon={faMobileAlt} />
+                                    Contact Information: </h2>
 
                                 <div className="infos">
-                                    <h4><i class="fas fa-map-marker-alt"></i>
-                                        Address  </h4>
+                                    <h4>
+                                        <FontAwesomeIcon className="map" icon={faMapMarked} />   Address  </h4>
                                     <p>
                                         2268/3 Opp ICICI Bank <br />
                                         Sector 14, Gurgaon
@@ -53,14 +56,14 @@ const Contact = () => {
                                 </div>
 
                                 <div className="infos">
-                                    <h4> <i class="fas fa-phone-alt"></i> Phone</h4>
+                                    <h4>  <FontAwesomeIcon className="phone" icon={faPhone} /> Phone</h4>
                                     <p>
                                         +91 9350893635
                                     </p>
                                 </div>
 
                                 <div className="infos">
-                                    <h4> <i class="fas fa-envelope"></i> Email</h4>
+                                    <h4> <FontAwesomeIcon className="fa-envelope mx-2" icon={faEnvelope} />Email</h4>
                                     <p>
                                         info@sweetExpert.com <br />
                                         setiagrupz@gmail.com
@@ -73,9 +76,9 @@ const Contact = () => {
                         {/* Sign Up Part */}
                         <div className="col-md-6 sign-up">
                             <h2 className="fw-lighter pt-5">
-                                <i class="fas fa-sign-in-alt mx-3"></i>
+                                <FontAwesomeIcon className="sign mx-2" icon={faSignInAlt} />
                                 Sign Up</h2>
-                            <input className="input mb-3" type="email" placeholder="Enter Email" id="" /> <br />
+                            <input className="input mb-3" type="text" placeholder="Enter Name" id="" /> <br />
                             <input className="input mb-3" type="number" placeholder="Contact Number" id="" /> <br />
                             <input className="input mb-3" type="email" placeholder="Enter Email" id="" /> <br />
                             <h5>Queries:</h5>
@@ -84,7 +87,9 @@ const Contact = () => {
                             <button className="btn btn-light">Submit</button>
                         </div>
                         <div>
-                            <h3 className="fw-lighter mt-5 text-center">ONLINE CONSULTATION:</h3>
+                            <h3 className="fw-lighter mt-5 text-center">
+                                <FontAwesomeIcon className=" mx-2" icon={faUserFriends} />
+                                ONLINE CONSULTATION:</h3>
                             <p className="pt-3 pd-2">www.facetime/sweet_expert.com</p>
                             <button className=" btn-danger">Call Now</button>
                         </div>

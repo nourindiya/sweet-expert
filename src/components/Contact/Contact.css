@@ -24,7 +24,6 @@
 
 }
 .sign-up{
-  
 background-color: rgba(128, 0, 128, 0.192);
 }
 .input{
@@ -37,4 +36,20 @@ background-color: rgba(128, 0, 128, 0.192);
     width: 300px;
     height: 200px;
     background-color: black;
+}
+.phone{
+    color: blueviolet;
+}
+.map{
+    color: red;
+}
+.black{
+    color: black;
+}
+.sign{
+    color: rgb(34, 61, 218);
+}
+
+.user{
+    color: rgb(226, 64, 43);
 }

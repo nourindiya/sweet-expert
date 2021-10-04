@@ -1,7 +1,9 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import { faAward, faTrophy } from '@fortawesome/free-solid-svg-icons'
 import "./AboutUs.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const AboutUs = () => {
@@ -45,12 +47,12 @@ const AboutUs = () => {
                         </button>
                     </div>
                     <div>
-                        <h3 className="mt-3 mb-3"> ABOUT US </h3>
+                        <h3 className="mt-3 mb-3 purple"> ABOUT US </h3>
                         <div className="row">
 
                             {/* Describtions */}
                             <div className="col-md-6 pt-4 info mt-auto">
-                                <h1>SWEET EXPERT </h1>
+                                <h1 className="purple">SWEET EXPERT </h1>
                                 <h6>(A academy where you can we impart skills and tecniques)</h6>
                                 <p>It has been more than 10 years now,<br />
                                     we are engaged with bakery and<br />
@@ -61,13 +63,13 @@ const AboutUs = () => {
                             </div>
 
                             <div className="col-md-6 info mt-auto" >
-                                <h1>THE VISION</h1>
+                                <h1 className="purple">THE VISION</h1>
                                 <p>To give world class and professional<br />
                                     training to people who are passionate<br />
                                     enough to be best chefs in the bakery<br />
                                     and restaurent industry.
                                 </p>
-                                <h1>THE MISSION</h1>
+                                <h1 className="purple">THE MISSION</h1>
                                 <p>Our mission is to train people so that they can get employement and as well genrate employment for others in bakery and restaurent industry.</p>
                             </div>
 
@@ -75,19 +77,21 @@ const AboutUs = () => {
 
                         {/* Acheivments Div */}
                         <div>
-                            <h3 className="heading mt-5 mx-2">   <i class="fas fa-award"></i> ACHIVEMENTS:</h3>
+                            <h3 className="heading mt-5 mx-2  purple">
+                                <FontAwesomeIcon className="phone mx-2" icon={faAward} />
+                                ACHIVEMENTS:</h3>
                             <div className="ul">
                                 <h4 className="text-start">
-                                    <i class="fas fa-trophy"></i>
+                                    <FontAwesomeIcon className="fa-envelope mx-2" icon={faTrophy} />
                                     Our most on the students got
                                     chance to battle for internation baking opetition.Our studenst are tough to battle.Beacuase they are trained by most skilled pestry chefs
                                 </h4>
                                 <h4 className="text-start">
-                                    <i class="fas fa-trophy"></i>
+                                    <FontAwesomeIcon className="fa-envelope mx-2" icon={faTrophy} />
                                     Hired by most rewand Hotels such as five star's and others.
                                 </h4>
                                 <h4 className="text-start">
-                                    <i class="fas fa-trophy"></i>
+                                    <FontAwesomeIcon className="fa-envelope mx-2" icon={faTrophy} />
                                     All students get chance to earn funds from different companies for thei own venture.
                                 </h4>
 

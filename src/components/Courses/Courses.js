@@ -4,6 +4,7 @@ import "./Courses.css"
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
+
     // load and set data
     useEffect(() => {
         fetch('./projectData1.json')
@@ -13,8 +14,7 @@ const Courses = () => {
     console.log(courses)
     return (
         <div>
-            <h1 className="m-5 mx-auto text-center p-2 text-lg bg-dark w-25 
-     text-light">Top Courses</h1>
+            <h1 className="mx-auto pt-5 w-25  head purple">Our Top Courses</h1>
             <div className="row">
                 <div className="col-md-12">
                     <div className="row row-cols-md-4 g-3">
